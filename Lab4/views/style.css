@@ -1,0 +1,49 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #006400; /* DarkGreen */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #008000; /* Green */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 5px; /* Space between list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Simple box shadow for depth */
+}
+
+li a {
+    display: block; /* Make the links fill the entire list item */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline from links */
+    color: #008000; /* Green text for links */
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #e0e0e0; /* Light grey background on hover */
+}
